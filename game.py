@@ -110,6 +110,7 @@ class Stack:
 
 	def push_to_stack(self):
 		global brick_width, score
+
 		b = self.stack[self.first_stack - 2]
 		b2 = self.stack[self.first_stack - 1]
 		# check whether the player succesfuly pushed a new brick to the stack
@@ -118,11 +119,13 @@ class Stack:
 			self.stack[self.first_stack - 1].x = b.x
 			if self.stack[self.first_stack - 1].w > b.w:
 				self.stack[self.first_stack - 1].w = b.w
+			# previous brick stops moving
 			self.stack[self.first_stack - 1].speed = 0
 			score += 1
 
 		elif b.x <= b2.x <= b.x + b.w:
 			self.stack[self.first_stack - 1].w = b.x + b.w - b2.x
+			# previous brick stops moving
 			self.stack[self.first_stack - 1].speed = 0
 			score += 1
 		# or he lost the game :(
