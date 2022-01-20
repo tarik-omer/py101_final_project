@@ -31,4 +31,5 @@ python3 -m pip install pygame
 I hope that I was thorough enough! :)
 
 Here's a quick preview:
+
 ![img](assets/img.png)
