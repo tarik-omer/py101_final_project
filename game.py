@@ -7,7 +7,7 @@ pygame.init()
 width = 600
 height = 800
 display = pygame.display.set_mode((width, height))
-display = pygame.display.set_caption('Tower Stacks')
+pygame.display.set_caption("Tower Stacks")
 clock = pygame.time.Clock()
 
 # background image
