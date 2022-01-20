@@ -29,3 +29,6 @@ python3 -m pip install pygame
     https://www.dafont.com/game-over.font
 
 I hope that I was thorough enough! :)
+
+Here's a quick preview:
+![img](assets/img.png)
