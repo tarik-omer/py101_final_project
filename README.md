@@ -15,11 +15,14 @@ brick to the tower.
 the game, which waits for user input, but it also initializes some values. The game_over() function is called
 whenever the user loses the game. It display the Game Over text and awaits further input.
 
-  The command for playing the game are: SPACE / LMB - placing a brick, Q - quit, R - reset.
+   The command for playing the game are: SPACE / LMB - placing a brick, Q - quit, R - reset.
   
   In order to install the game you have to install pygame and a font used for the Game Over text:
+  
 sudo apt install python3
+  
 sudo apt install python3-pip
+  
 python3 -m pip install pygame
   
   and then, for the font:
