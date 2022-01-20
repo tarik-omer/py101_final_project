@@ -32,4 +32,6 @@ I hope that I was thorough enough! :)
 
 Here's a quick preview:
 
-![img](assets/img.png)
+<p align="center">
+  <img src="assets/img.png" alt="hello there, traveler"/>
+</p>
